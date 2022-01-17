@@ -75,7 +75,6 @@ const DeviceDetails: React.FC = () => {
 	};
 
 	useEffect(() => {
-		console.log(routeParams);
 		function getDeviceIfExists() {
 			if (routeParams.edit && routeParams.device) {
 				const alias = routeParams.device;

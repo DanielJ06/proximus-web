@@ -46,10 +46,8 @@ export const DeviceProvider: React.FC = ({ children }) => {
 
 	function registerMultipleDevices(deviceLists: Device[]) {
 		deviceLists.map((device: Device) => {
-			console.log(`called: ${device.model}`);
 			const findDevice = devices.findIndex((d) => d.id === device.id);
 			if (!devices[findDevice]) {
-				console.log(`registered: ${device.model}`);
 				devices.push(device);
 			}
 		});
