@@ -12,7 +12,7 @@ export const Container = styled.div<ContainerProps>`
 	display: flex;
 
 	width: 100%;
-	min-height: 62px;
+	min-height: 45px;
 
 	padding-left: ${CommonSizes.Small}px;
 	padding-right: ${CommonSizes.Small}px;

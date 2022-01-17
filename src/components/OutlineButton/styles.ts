@@ -6,7 +6,7 @@ export const Container = styled.button`
 	justify-content: center;
 
 	width: 100%;
-	min-height: 62px;
+	min-height: 42px;
 
 	padding: ${CommonSizes.Medium}px;
 	margin-top: ${CommonSizes.XSmallest}px;
